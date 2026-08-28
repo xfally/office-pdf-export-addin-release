@@ -1,4 +1,4 @@
-# Office PDF Export Add-in
+# Office PDF Export
 
 > **Convert Word, Excel & PowerPoint to PDF** — with custom text watermarks and non-editable (scanned) output.
 > **100% offline & private: your documents never leave your computer.** Free, no account, no internet required.
@@ -11,7 +11,7 @@
 
 ## English
 
-Office PDF Export Add-in is a free add-in for Microsoft Word, PowerPoint, and Excel that converts your documents to PDF — with custom text watermarks and an optional "scanned" mode that produces non-editable PDFs.
+Office PDF Export is a free add-in for Microsoft Word, PowerPoint, and Excel that converts your documents to PDF — with custom text watermarks and an optional "scanned" mode that produces non-editable PDFs.
 
 Unlike online PDF converters, **everything runs locally on your own computer, inside Microsoft Office**. Your documents are never uploaded to any server.
 
@@ -33,6 +33,7 @@ Most online converters (SmallPDF, iLovePDF, and similar) require you to **upload
 - 🖼️ **Non-editable scanned PDF** — export as image-based PDF (DPI 150 / 200 / 300) so recipients cannot edit or copy the content
 - 👁️ **Live preview** — see the watermark exactly as it will appear before exporting
 - ⚡ **Quick export** — one-click plain PDF (no watermark, no scan mode)
+- 🖱️ **Windows Explorer right-click menu** — Right-click any `.docx` / `.xlsx` / `.pptx` to Quick Export or Export with Watermark, without opening Office
 - 🌐 **Bilingual** — English + Chinese (auto-detects Office language, switchable manually)
 - 📦 **Three apps in one** — Word + PowerPoint + Excel
 
@@ -46,25 +47,32 @@ Most online converters (SmallPDF, iLovePDF, and similar) require you to **upload
 
 ### 📥 Download & Install
 
-1. Go to the [Releases](../../releases) page and download the latest installer `OfficePdfExportSetup-0.1.0.exe`
+1. Go to the [Releases](../../releases) page and download the latest installer `OfficePdfExportSetup-0.1.1.exe`
 2. Run the installer (requires administrator / UAC elevation once)
 3. Restart Word / PowerPoint / Excel after installation
-4. A "PDF Export Tools" tab will appear in the ribbon
+4. A "Office PDF Export" tab will appear in the ribbon
 
 ### 📖 How to Use
 
 1. Open a Word document, PowerPoint presentation, or Excel workbook
-2. Click the "PDF Export Tools" tab in the ribbon
+2. Click the "Office PDF Export" tab in the ribbon
 3. **Quick Export**: click "Quick Export" to generate a plain PDF directly
 4. **Preview & Export**: click "Preview & Export" to open the preview window
    - Configure the watermark (text, font, color, opacity, angle, layout)
    - Check "Scanned PDF" for non-editable output
    - Click "Export PDF" to generate the file
 
+### 🖱️ Via Windows Explorer Right-Click Menu
+
+1. In Windows Explorer, right-click any `.docx` / `.xlsx` / `.pptx` file
+2. Select **Office PDF Export ▶** (a cascading submenu)
+3. Choose **Quick Export to PDF** for a plain PDF, or **Export with Watermark** to configure the watermark first
+4. Pick the output location in the system's Save As dialog
+
 ### 🗑️ Uninstall
 
-- **Control Panel** → Programs and Features → find "Office PDF Export Add-in" → Uninstall
-- **Start Menu** → Office PDF → "Uninstall Office PDF Export"
+- **Control Panel** → Programs and Features → find "Office PDF Export" → Uninstall
+- **Start Menu** → Office PDF Export → "Uninstall Office PDF Export"
 
 All COM registrations and registry entries are removed automatically. Restart Office after uninstalling.
 
@@ -117,7 +125,7 @@ pax (coolwinding@foxmail.com)
 
 ## 中文
 
-Office PDF Export Add-in 是一款免费的 Microsoft Word、PowerPoint、Excel 插件，可将文档转换为 PDF——支持自定义文字水印，并可生成不可编辑的「扫描式」PDF。
+Office PDF Export 是一款免费的 Microsoft Word、PowerPoint、Excel 插件，可将文档转换为 PDF——支持自定义文字水印，并可生成不可编辑的「扫描式」PDF。
 
 与在线 PDF 转换工具不同，**所有处理都在你自己的电脑上、由 Microsoft Office 本地完成**。你的文档绝不会上传到任何服务器。
 
@@ -139,6 +147,7 @@ Office PDF Export Add-in 是一款免费的 Microsoft Word、PowerPoint、Excel 
 - 🖼️ **不可编辑的扫描式 PDF** —— 导出为图片式 PDF（DPI 150 / 200 / 300），他人无法编辑或复制内容
 - 👁️ **实时预览** —— 导出前所见即所得地查看水印效果
 - ⚡ **快速导出** —— 一键生成纯 PDF（无水印、无扫描模式）
+- 🖱️ **Windows 资源管理器右键菜单** —— 在任意 `.docx` / `.xlsx` / `.pptx` 文件上右键即可快速导出或带水印导出，无需打开 Office
 - 🌐 **中英双语** —— 自动检测 Office 语言，可手动切换
 - 📦 **三合一** —— Word + PowerPoint + Excel
 
@@ -152,25 +161,32 @@ Office PDF Export Add-in 是一款免费的 Microsoft Word、PowerPoint、Excel 
 
 ### 📥 下载安装
 
-1. 前往 [Releases](../../releases) 页面下载最新版安装包 `OfficePdfExportSetup-0.1.0.exe`
+1. 前往 [Releases](../../releases) 页面下载最新版安装包 `OfficePdfExportSetup-0.1.1.exe`
 2. 双击运行安装程序（需要管理员权限/UAC 提权一次）
 3. 安装完成后重启 Word / PowerPoint / Excel
-4. 功能区将出现「PDF 导出工具」选项卡
+4. 功能区将出现「Office PDF 导出」选项卡
 
 ### 📖 使用说明
 
 1. 打开一个 Word 文档、PPT 演示文稿或 Excel 工作簿
-2. 点击功能区中的「PDF 导出工具」选项卡
+2. 点击功能区中的「Office PDF 导出」选项卡
 3. **快速导出**：点击「快速导出」直接生成纯 PDF
 4. **预览并导出**：点击「预览并导出」打开预览窗口
    - 配置水印（文字、字体、颜色、透明度、角度、布局）
    - 如需不可编辑的输出，勾选「扫描式 PDF」模式
    - 点击「导出 PDF」生成文件
 
+### 🖱️ 通过 Windows 资源管理器右键菜单
+
+1. 在文件资源管理器中右键点击任意 `.docx` / `.xlsx` / `.pptx` 文件
+2. 选择 **Office PDF 导出 ▶**（级联子菜单）
+3. 在子菜单中选择**快速导出 PDF**（纯 PDF）或**带水印导出**（先配置水印再导出）
+4. 在系统另存为对话框中选择输出位置
+
 ### 🗑️ 卸载
 
-- **控制面板**：程序和功能 → 找到 "Office PDF Export Add-in" → 卸载
-- **开始菜单**：Office PDF → "Uninstall Office PDF Export"
+- **控制面板**：程序和功能 → 找到 "Office PDF Export" → 卸载
+- **开始菜单**：Office PDF Export → "Uninstall Office PDF Export"
 
 卸载程序会自动清理所有 COM 注册和注册表条目。卸载后重启 Office 即可。
 
